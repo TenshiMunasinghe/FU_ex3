@@ -6,6 +6,11 @@ function main() {
   console.log(`Dice 2: ${dice2}`);
   const total = dice1 + dice2;
   console.log(`Total value: ${total}`);
+  if (total > 7) {
+    console.log('You won!');
+  } else {
+    console.log('You lost.');
+  }
 }
 
 main();
