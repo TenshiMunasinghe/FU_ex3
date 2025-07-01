@@ -12,9 +12,9 @@ function main() {
   const total = dice1 + dice2;
   console.log(`Total value: ${total}`);
   if (total > 7) {
-    console.log('You won!');
+    console.log(`${name} won!`);
   } else {
-    console.log('You lost.');
+    console.log(`${name} lost.`);
   }
 }
 
