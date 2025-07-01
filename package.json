@@ -1,0 +1,14 @@
+{
+  "name": "fu_something_ex3",
+  "version": "1.0.0",
+  "main": "dice_game.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}

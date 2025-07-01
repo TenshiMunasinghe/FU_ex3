@@ -1,4 +1,9 @@
+const prompt = require('prompt-sync')();
+
 function main() {
+  console.log('What is your name?');
+  const name = prompt('> ');
+  console.log(`Hello, ${name}!`);
   console.log('Rolling dice...');
   const dice1 = Math.floor(Math.random() * 6) + 1;
   const dice2 = Math.floor(Math.random() * 6) + 1;
